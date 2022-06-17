@@ -1,0 +1,75 @@
+PAGES TO IMPLEMENT
+
+format: no indent is main page, indented below (without space) is pages it links to.
+
+home screen (buttons for login, signup) -> warning if they are feeling suicidal or have considered self harm to contact the crisis line and do not use the app
+	login page
+	signup page
+
+login page
+	register button to signup page
+	upon logging in successfully, brings to patient/specialist home page
+
+signup page
+	login button to login page
+	upon signing up successfully, brings to login page
+
+patient home page
+	book meeting
+	screening process
+	profile information verification page (on rebooking)
+
+specialist home page (displays upcoming meetings)
+	specialist set time page
+	view offers page
+		
+book meeting
+	screening process (if not completed)
+	profile information verification page (if screening completed)
+
+screening process (big long page with all the questions)
+	screening passed page
+	screening failed page
+
+patient profile page (edit profile on the page)
+	education page
+
+viewing patient profile page (accessed by specialist from offer)
+	view offers page
+
+screening passed page (upon patient passing)
+	book meeting
+	patient home page
+
+screening failed page
+	lock out of app, recommend crisis line and immediate help
+
+profile information verification page (before patient books meeting)
+	patient profile page
+	education page
+
+education page
+	patient profile page
+
+matchmaking page (list of specialists for patient) *add time slot picker and book button
+	viewing specialist profile page
+	confirmation of request page for patient
+
+specialist profile page (edit profile on the page)
+	(standalone, just a save button)
+
+viewing specialist profile page
+	matchmaking page (back)
+
+specialist set time page
+	specialist home page (back)
+
+view offers page
+	viewing patient profile page
+	confirmation of booking page for specialist
+
+confirmation of booking page for specialist
+	specialist home page
+
+confirmation of request page for patient
+	patient home page
