@@ -11,6 +11,14 @@ login page
 	upon logging in successfully, brings to patient/specialist home page
 
 signup page
+	signup patient page
+	signup specialist page
+
+signup patient page
+	login button to login page
+	upon signing up successfully, brings to login page
+
+signup specialist page
 	login button to login page
 	upon signing up successfully, brings to login page
 
