@@ -10,9 +10,30 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthyMindConnect">
         <activity
-            android:windowSoftInputMode="adjustPan"
+            android:name=".PatientSignup"
+            android:exported="false" />
+        <activity
+            android:name=".PatientProfile"
+            android:exported="false" />
+        <activity
+            android:name=".ProfilePage"
+            android:exported="false" />
+        <activity
+            android:name=".SpecialistHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".PatientHomePage"
+            android:exported="false" />
+        <activity
+            android:name=".LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".SignupPage"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
