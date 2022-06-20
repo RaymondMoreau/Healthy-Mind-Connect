@@ -13,7 +13,7 @@ class SignupPage : AppCompatActivity() {
         val notSpecialist: Button = findViewById(R.id.NoSpecialist)
 
         notSpecialist.setOnClickListener{
-            var intent = Intent(this, PatientHomePage::class.java)
+            var intent = Intent(this, PatientSignup::class.java)
             startActivity(intent)
         }
     }
