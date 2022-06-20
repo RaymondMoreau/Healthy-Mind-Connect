@@ -3,5 +3,5 @@
     <string name="first_name">John</string>
     <string name="last_name">Doe</string>
     <string name="username">Patient</string>
-    <string name="currentMeds">Acutane,Prozac </string>
+    <string name="currentMeds">Accutane,Prozac </string>
 </resources>
