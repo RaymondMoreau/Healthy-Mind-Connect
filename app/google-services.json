@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "654254012584",
+    "project_id": "healthymindconnect",
+    "storage_bucket": "healthymindconnect.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654254012584:android:e111fe9f7ccb4df9542a9d",
+        "android_client_info": {
+          "package_name": "com.example.healthymindconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "654254012584-ho9l9ileiea0h0g7e8pp7v96ac6r98sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBa8P1jaAF3gRz_pO41xljYV5rwcxE4DeM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "654254012584-ho9l9ileiea0h0g7e8pp7v96ac6r98sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

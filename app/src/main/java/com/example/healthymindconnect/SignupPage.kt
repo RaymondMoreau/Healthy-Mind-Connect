@@ -16,6 +16,13 @@ class SignupPage : AppCompatActivity() {
             var intent = Intent(this, PatientSignup::class.java)
             startActivity(intent)
         }
+
+        val yesSpecialist: Button = findViewById(R.id.YesSpecialist)
+
+        yesSpecialist.setOnClickListener {
+            var intent = Intent(this, SpecialistSignUp::class.java)
+            startActivity(intent)
+        }
     }
 
 }
