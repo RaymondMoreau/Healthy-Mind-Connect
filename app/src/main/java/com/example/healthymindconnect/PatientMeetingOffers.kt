@@ -7,8 +7,5 @@ class PatientMeetingOffers : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.patient_meeting_offers)
-
-    val acceptButton : 
     }
-
 }
