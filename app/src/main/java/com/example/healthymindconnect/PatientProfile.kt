@@ -9,13 +9,13 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 class PatientProfile : AppCompatActivity() {
 
-    var db = FirebaseFirestore.getInstance()
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.patient_profile_page)
 
-        db = FirebaseFirestore.getInstance()
+
 
         val profileButton: Button = findViewById(R.id.patientHome)
 
