@@ -1,6 +1,7 @@
 package com.example.healthymindconnect
 
 import android.os.Bundle
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 
 class PatientMeetingOffers : AppCompatActivity() {
@@ -8,7 +9,12 @@ class PatientMeetingOffers : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.patient_meeting_offers)
 
-    val acceptButton : 
+        val acceptButton : Button = findViewById(R.id.PatientAccept)
+        acceptButton.setOnClickListener{
+
+        }
+
+
     }
 
 }

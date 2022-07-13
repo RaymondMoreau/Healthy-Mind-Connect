@@ -30,14 +30,6 @@ class PatientSignup : AppCompatActivity() {
 
 
 
-        gender.setOnItemSelectedListener(object : OnItemSelectedListener {
-            override fun onItemSelected(parent: AdapterView<*>, view: View?, pos: Int, id: Long) {
-                val item = parent.getItemAtPosition(pos)
-            }
-
-            override fun onNothingSelected(parent: AdapterView<*>?) {}
-        })
-
         patientSignup.setOnClickListener{
             val userNamedb : String = userName.text.toString();
             val passworddb : String = password.text.toString()
