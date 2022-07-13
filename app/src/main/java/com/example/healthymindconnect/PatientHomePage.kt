@@ -16,5 +16,12 @@ class PatientHomePage : AppCompatActivity() {
             var intent = Intent(this, PatientProfile::class.java)
             startActivity(intent)
         }
+
+        val offerbutton : Button = findViewById(R.id.PatientMatchedMeetings)
+
+        offerbutton.setOnClickListener {
+            var intent = Intent(this, PatientMeetingOffers::class.java)
+            startActivity(intent)
+        }
     }
 }
