@@ -86,41 +86,37 @@
                 android:text="Q1: Felt that you were unable to control the important things in your life?"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice1"
+            <CheckBox
+                android:id="@+id/checkBox3"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice2"
+            <CheckBox
+                android:id="@+id/checkBox4"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice3"
+            <CheckBox
+                android:id="@+id/checkBox5"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice4"
+            <CheckBox
+                android:id="@+id/checkBox6"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -130,41 +126,37 @@
                 android:text="Q2: Felt confidence in your ability to handle personal problems?"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice5"
+            <CheckBox
+                android:id="@+id/checkBox7"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice6"
+            <CheckBox
+                android:id="@+id/checkBox8"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice7"
+            <CheckBox
+                android:id="@+id/checkBox9"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice8"
+            <CheckBox
+                android:id="@+id/checkBox10"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -174,41 +166,37 @@
                 android:text="Q3: Felt that things were going your way?"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice9"
+            <CheckBox
+                android:id="@+id/checkBox11"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice10"
+            <CheckBox
+                android:id="@+id/checkBox12"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice11"
+            <CheckBox
+                android:id="@+id/checkBox13"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice12"
+            <CheckBox
+                android:id="@+id/checkBox14"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -218,41 +206,37 @@
                 android:text="Q4: Been angered because of things that happened that were outside of your control?"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice13"
+            <CheckBox
+                android:id="@+id/checkBox15"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice14"
+            <CheckBox
+                android:id="@+id/checkBox16"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice15"
+            <CheckBox
+                android:id="@+id/checkBox17"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice16"
+            <CheckBox
+                android:id="@+id/checkBox18"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -262,41 +246,37 @@
                 android:text="Q5: Felt difficulties were piling up so high that you could not overcome them?"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice17"
+            <CheckBox
+                android:id="@+id/checkBox19"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice18"
+            <CheckBox
+                android:id="@+id/checkBox20"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice19"
+            <CheckBox
+                android:id="@+id/checkBox21"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice20"
+            <CheckBox
+                android:id="@+id/checkBox22"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -314,41 +294,37 @@
                 android:text="Q6: Been unable to stop or control worrying?"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice21"
+            <CheckBox
+                android:id="@+id/checkBox23"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice22"
+            <CheckBox
+                android:id="@+id/checkBox24"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice23"
+            <CheckBox
+                android:id="@+id/checkBox25"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice24"
+            <CheckBox
+                android:id="@+id/checkBox26"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
             <TextView
                 android:id="@+id/textView29"
@@ -358,41 +334,37 @@
                 android:text="Q7: Had trouble relaxing?"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice25"
+            <CheckBox
+                android:id="@+id/checkBox33"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice26"
+            <CheckBox
+                android:id="@+id/checkBox34"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice27"
+            <CheckBox
+                android:id="@+id/checkBox35"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice28"
+            <CheckBox
+                android:id="@+id/checkBox36"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
             <TextView
                 android:id="@+id/textView33"
@@ -402,41 +374,37 @@
                 android:text="Q8: Had trouble falling or staying asleep, or sleeping too much?"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice29"
+            <CheckBox
+                android:id="@+id/checkBox43"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice30"
+            <CheckBox
+                android:id="@+id/checkBox44"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice31"
+            <CheckBox
+                android:id="@+id/checkBox45"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice32"
+            <CheckBox
+                android:id="@+id/checkBox46"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
             <TextView
                 android:id="@+id/textView34"
@@ -446,41 +414,37 @@
                 android:text="Q9: Felt bad about yourself- or that you are a failure and have let somebody down"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice35"
+            <CheckBox
+                android:id="@+id/checkBox53"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice36"
+            <CheckBox
+                android:id="@+id/checkBox54"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice37"
+            <CheckBox
+                android:id="@+id/checkBox55"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice38"
+            <CheckBox
+                android:id="@+id/checkBox56"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
             <TextView
                 android:id="@+id/textView39"
@@ -490,41 +454,37 @@
                 android:text="Q10: Experienced thoughts that you would be better off dead or hurting yourself in some way?"
                 android:textSize="20sp" />
 
-            <Button
-                android:id="@+id/choice40"
+            <CheckBox
+                android:id="@+id/checkBox63"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Nearly Never"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Nearly Never" />
 
-            <Button
-                android:id="@+id/choice41"
+            <CheckBox
+                android:id="@+id/checkBox64"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Sometimes"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Sometimes" />
 
-            <Button
-                android:id="@+id/choice42"
+            <CheckBox
+                android:id="@+id/checkBox65"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Fairly Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Fairly Often" />
 
-            <Button
-                android:id="@+id/choice43"
+            <CheckBox
+                android:id="@+id/checkBox66"
                 android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:background="#0091EA"
-                android:padding="8dp"
-                android:text="Very Often"
-                android:textColor="#fff" />
+                android:layout_height="wrap_content"
+                android:padding="4dp"
+                android:background="#CF9FFF"
+                android:text="Very Often" />
 
 
         </LinearLayout>
