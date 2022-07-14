@@ -2,9 +2,6 @@ package com.example.healthymindconnect
 
 import android.content.Intent
 import android.os.Bundle
-import android.view.View
-import android.widget.AdapterView
-import android.widget.AdapterView.OnItemSelectedListener
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Spinner
@@ -22,7 +19,7 @@ class PatientSignup : AppCompatActivity() {
 
         val firstName : EditText = findViewById(R.id.PatientFirstName)
         val lastName : EditText = findViewById(R.id.PatientLastname)
-        val gender : Spinner = findViewById(R.id.SpecialistGender)
+        val gender : Spinner = findViewById(R.id.PatientGender)
         val userName : EditText = findViewById(R.id.SpecialistUsername)
         val password : EditText = findViewById(R.id.SpecialistPassword)
         val meds : EditText = findViewById(R.id.PatientCurrentMed)
