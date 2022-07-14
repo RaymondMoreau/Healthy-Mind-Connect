@@ -117,7 +117,7 @@
         app:layout_constraintVertical_bias="0.581" />
 
     <CheckBox
-        android:id="@+id/psychotherabyBox"
+        android:id="@+id/psychotherabyBoxpfp"
         android:layout_width="179dp"
         android:layout_height="46dp"
         android:text="Psychotherapy"
@@ -129,7 +129,7 @@
         app:layout_constraintVertical_bias="0.467" />
 
     <CheckBox
-        android:id="@+id/counselingBox"
+        android:id="@+id/counselingBoxpfp"
         android:layout_width="179dp"
         android:layout_height="46dp"
         android:text="Counseling"
@@ -141,7 +141,7 @@
         app:layout_constraintVertical_bias="0.469" />
 
     <CheckBox
-        android:id="@+id/psychiatryBox"
+        android:id="@+id/psychiatryBoxpfp"
         android:layout_width="179dp"
         android:layout_height="46dp"
         android:text="Psychiatry"
@@ -153,7 +153,7 @@
         app:layout_constraintVertical_bias="0.356" />
 
     <CheckBox
-        android:id="@+id/therapyBox"
+        android:id="@+id/therapyBoxpfp"
         android:layout_width="179dp"
         android:layout_height="46dp"
         android:text="Therapy"

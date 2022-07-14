@@ -28,7 +28,7 @@ class PatientHomePage : AppCompatActivity() {
         val BookMeeting : Button = findViewById(R.id.PatientBookMeeting)
         BookMeeting.setOnClickListener{
             saveFireStore()
-            
+
         }
 
 

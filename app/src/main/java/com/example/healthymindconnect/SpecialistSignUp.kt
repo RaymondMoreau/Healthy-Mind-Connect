@@ -24,7 +24,7 @@ class SpecialistSignUp : AppCompatActivity() {
         val PsychoTherapy : CheckBox = findViewById(R.id.PsychotherabyBox)
         val Counseling : CheckBox = findViewById(R.id.CounselingBox)
         val Psychiatry : CheckBox = findViewById(R.id.PsychiatryBox)
-        val gender : Spinner = findViewById(R.id.SpecialistGender)
+        val gender : Spinner = findViewById(R.id.PatientGender)
 
         SpecialistFinishSignUp.setOnClickListener{
 
