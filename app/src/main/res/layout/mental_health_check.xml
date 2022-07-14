@@ -5,11 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <ScrollView
-        android:layout_width="409dp"
-        android:layout_height="729dp"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp">
     <Button
         android:id="@+id/loginPageButton3"
         android:layout_width="324dp"
@@ -63,16 +58,17 @@
         app:srcCompat="@drawable/img_2928" />
 
     <ScrollView
-        android:layout_width="416dp"
-        android:layout_height="479dp"
-        tools:layout_editor_absoluteX="-4dp"
-        tools:layout_editor_absoluteY="181dp">
+        android:layout_width="414dp"
+        android:layout_height="442dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" />
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView18"
@@ -91,44 +87,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice1"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice2"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice3"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice4"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/textView17"
@@ -139,44 +131,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice5"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice6"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice7"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice8"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/textView19"
@@ -187,44 +175,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice9"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice10"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice11"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice12"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/textView20"
@@ -235,44 +219,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice13"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice14"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice15"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice16"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/textView21"
@@ -283,44 +263,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice17"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice18"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice19"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice20"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/textView23"
@@ -339,44 +315,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice21"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice22"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice23"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice24"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/textView29"
@@ -387,44 +359,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice25"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice26"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice27"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice28"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/textView33"
@@ -435,44 +403,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice29"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice30"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice31"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice32"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/textView34"
@@ -483,44 +447,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice35"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice36"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice37"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice38"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
             <TextView
                 android:id="@+id/textView39"
@@ -531,44 +491,40 @@
                 android:textSize="20sp" />
 
             <Button
-                android:layout_width="match_parent"
-                android:layout_height="70dp"
-                android:text="Nearly Never"
-                android:background="#0091EA"
-                android:textColor="#fff"
-                android:padding="8dp"
                 android:id="@+id/choice40"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Sometimes"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Nearly Never"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice41"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Fairly Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Sometimes"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice42"
-                />
-
-            <Button
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:text="Very Often"
                 android:background="#0091EA"
-                android:textColor="#fff"
                 android:padding="8dp"
+                android:text="Fairly Often"
+                android:textColor="#fff" />
+
+            <Button
                 android:id="@+id/choice43"
-                />
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="#0091EA"
+                android:padding="8dp"
+                android:text="Very Often"
+                android:textColor="#fff" />
 
 
         </LinearLayout>

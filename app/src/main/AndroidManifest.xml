@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthyMindConnect">
         <activity
+            android:name=".MentalHealthCheck"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
             android:name=".PatientMeetingOffers"
             android:exported="false"
             android:windowSoftInputMode="adjustPan"/>
@@ -49,6 +53,7 @@
             android:name=".MainActivity"
             android:exported="true"
             android:windowSoftInputMode="adjustPan">
+
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -46,7 +46,7 @@
         app:layout_constraintVertical_bias="0.051" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/mentalHealthCheck"
         android:layout_width="184dp"
         android:layout_height="177dp"
         android:text="Complete mental health check-in"

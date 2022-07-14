@@ -18,6 +18,13 @@ class PatientHomePage : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val mentalHealthCheck : Button = findViewById(R.id.mentalHealthCheck)
+
+        mentalHealthCheck.setOnClickListener{
+            var intent = Intent(this, MentalHealthCheck::class.java)
+            startActivity(intent)
+        }
+
         val offerbutton : Button = findViewById(R.id.PatientMatchedMeetings)
 
         offerbutton.setOnClickListener {
