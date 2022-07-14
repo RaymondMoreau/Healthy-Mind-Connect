@@ -1,6 +1,570 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/loginPageButton3"
+        android:layout_width="324dp"
+        android:layout_height="55dp"
+        android:text="Complete Survey"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.980" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="375dp"
+        android:layout_height="66dp"
+        android:text="Please answer the following questions the best you can:"
+        android:textAlignment="viewStart"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.156" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="270dp"
+        android:layout_height="31dp"
+        android:text="Mental Health Screening"
+        android:textAlignment="textStart"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.740"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.051" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="95dp"
+        android:layout_height="79dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024"
+        app:srcCompat="@drawable/img_2928" />
+
+    <ScrollView
+        android:layout_width="416dp"
+        android:layout_height="479dp"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="181dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="In the last month, how often have you..."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q1: Felt that you were unable to control the important things in your life?"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice1"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice2"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice3"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice4"
+                />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q2: Felt confidence in your ability to handle personal problems?"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice5"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice6"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice7"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice8"
+                />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q3: Felt that things were going your way?"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice9"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice10"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice11"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice12"
+                />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q4: Been angered because of things that happened that were outside of your control?"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice13"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice14"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice15"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice16"
+                />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q5: Felt difficulties were piling up so high that you could not overcome them?"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice17"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice18"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice19"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice20"
+                />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="This time; in the last two weeks, how often have you..."
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q6: Been unable to stop or control worrying?"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice21"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice22"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice23"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice24"
+                />
+
+            <TextView
+                android:id="@+id/textView29"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q7: Had trouble relaxing?"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice25"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice26"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice27"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice28"
+                />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q8: Had trouble falling or staying asleep, or sleeping too much?"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice29"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice30"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice31"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice32"
+                />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q9: Felt bad about yourself- or that you are a failure and have let somebody down"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice35"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice36"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice37"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice38"
+                />
+
+            <TextView
+                android:id="@+id/textView39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:text="Q10: Experienced thoughts that you would be better off dead or hurting yourself in some way?"
+                android:textSize="20sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Nearly Never"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice40"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Sometimes"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice41"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Fairly Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice42"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text="Very Often"
+                android:background="#0091EA"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:id="@+id/choice43"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
