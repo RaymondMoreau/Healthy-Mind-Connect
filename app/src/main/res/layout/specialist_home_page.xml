@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/SpecialistUpcoming"
         android:layout_width="271dp"
         android:layout_height="193dp"
         android:text="View Upcoming Meetings"
@@ -34,7 +34,7 @@
         android:id="@+id/textView9"
         android:layout_width="211dp"
         android:layout_height="32dp"
-        android:text="Welcome User!"
+        android:text="Welcome!"
         android:textAlignment="textStart"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -48,12 +48,13 @@
         android:id="@+id/view"
         android:layout_width="418dp"
         android:layout_height="53dp"
-        android:layout_marginTop="676dp"
         android:background="@drawable/navbar_border"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
 
     <Button
         android:id="@+id/specialistHome"
@@ -71,7 +72,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/ProfileButton"
+        android:id="@+id/SpecialistProfileButton2"
         android:layout_width="86dp"
         android:layout_height="52dp"
         android:text="P"
@@ -131,7 +132,7 @@
         app:layout_constraintVertical_bias="0.174" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/SpecialistHomeOffers"
         android:layout_width="181dp"
         android:layout_height="46dp"
         android:text="View Offers"

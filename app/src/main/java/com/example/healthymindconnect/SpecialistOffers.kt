@@ -3,25 +3,25 @@ package com.example.healthymindconnect
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.firebase.firestore.FirebaseFirestore
+import org.w3c.dom.Text
 
-class PatientMeetingOffers : AppCompatActivity() {
+class SpecialistOffers : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.patient_meeting_offers)
+        setContentView(R.layout.specialist_offers)
         populateOffer()
 
-        val accept : Button = findViewById(R.id.PatientAccept)
+        val acceptButton : Button = findViewById(R.id.SpecialistAccept)
 
-        accept.setOnClickListener {
+        acceptButton.setOnClickListener{
             acceptOffer()
-            var intent = Intent(this, PatientHomePage::class.java)
+            var intent = Intent(this, SpecialistHomePage::class.java)
             startActivity(intent)
-
         }
-
 
     }
 
@@ -30,7 +30,7 @@ class PatientMeetingOffers : AppCompatActivity() {
 
         val specialistTime : TextView = findViewById(R.id.SpecialistOfferTime)
         val specialistDay : TextView = findViewById(R.id.SpecialistOfferDay)
-        val SpecialistName : TextView = findViewById(R.id.patient_meeting)
+        val patientName : TextView = findViewById(R.id.SpecialistMeeting)
 
         db.collection("Meetings")
             .get()
@@ -46,14 +46,14 @@ class PatientMeetingOffers : AppCompatActivity() {
                 }
             }
 
-        db.collection("Specialist")
+        db.collection("users")
             .get()
             .addOnCompleteListener {
                 val result : StringBuffer = StringBuffer()
 
                 if(it.isSuccessful) {
                     for(document in it.result!!){
-                        SpecialistName.setText(document.data.getValue("firstName").toString() +" " + document.data.getValue("lastName").toString())
+                        patientName.setText(document.data.getValue("firstName").toString() +" " + document.data.getValue("lastName").toString())
                     }
 
                 }
@@ -64,7 +64,7 @@ class PatientMeetingOffers : AppCompatActivity() {
     fun acceptOffer(){
         val db = FirebaseFirestore.getInstance()
         var map = mutableMapOf<String,Any>()
-        map["PatientAccepted"] = true
+        map["SpecialistAccepted"] = true
 
         db.collection("Meetings")
             .get()
@@ -79,4 +79,6 @@ class PatientMeetingOffers : AppCompatActivity() {
             }
 
     }
+
+
 }

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.TextView
 import com.google.firebase.firestore.FirebaseFirestore
 
 class PatientHomePage : AppCompatActivity() {
@@ -32,22 +33,44 @@ class PatientHomePage : AppCompatActivity() {
             startActivity(intent)
         }
 
-        val BookMeeting : Button = findViewById(R.id.PatientBookMeeting)
-        BookMeeting.setOnClickListener{
-            saveFireStore()
+        val BookMeetingg : Button = findViewById(R.id.PatientBookMeeting)
+        BookMeetingg.setOnClickListener{
+            mentalHealthCheck()
 
+        }
+
+        val upcoming : Button = findViewById(R.id.PatientUpcoming)
+
+        upcoming.setOnClickListener{
+            var intent = Intent(this, UpcomingMeetings::class.java)
+            startActivity(intent)
         }
 
 
     }
-    fun saveFireStore(){
-        var db = FirebaseFirestore.getInstance()
-        val meeting: MutableMap<String,Any> = HashMap()
-        meeting["userName"] = "Patient"
-        meeting["PatientAccepted"] = false
-        meeting["SpecialistAccepted"] = false
 
-        db.collection("Meetings")
-            .add(meeting)
+    fun mentalHealthCheck() {
+        val db = FirebaseFirestore.getInstance()
+        var intent = Intent(this,BookMeeting::class.java)
+
+        db.collection("users")
+            .get()
+            .addOnCompleteListener {
+                val result : StringBuffer = StringBuffer()
+
+                if(it.isSuccessful) {
+                    for(document in it.result!!){
+                        if(document.data.getValue("mentalHealthCheck")==false){
+                            intent = Intent(this,MentalHealthCheck::class.java)
+                            startActivity(intent)
+                        }
+                        else{
+                            startActivity(intent)
+                        }
+                    }
+
+                }
+            }
     }
+
 }

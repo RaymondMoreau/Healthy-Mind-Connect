@@ -10,6 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthyMindConnect">
         <activity
+            android:name=".UpcomingMeetings"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".SpecialistOffers"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".SpecialistProfilePage"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
+            android:name=".BookMeeting"
+            android:exported="false"
+            android:windowSoftInputMode="adjustPan"/>
+        <activity
             android:name=".MentalHealthCheck"
             android:exported="false"
             android:windowSoftInputMode="adjustPan"/>

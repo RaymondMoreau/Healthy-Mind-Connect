@@ -18,7 +18,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/PatientAccept"
+        android:id="@+id/SpecialistAccept"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Accept"
@@ -30,7 +30,7 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <Button
-        android:id="@+id/PatientDecline"
+        android:id="@+id/SpecialistDecline"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Decline"
@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.023" />
 
     <TextView
-        android:id="@+id/patient_meeting"
+        android:id="@+id/SpecialistMeeting"
         android:layout_width="135dp"
         android:layout_height="35dp"
         android:text="If u see this im broken"
@@ -52,18 +52,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.022" />
-
-    <TextView
-        android:id="@+id/SpecialistOfferTime"
-        android:layout_width="82dp"
-        android:layout_height="39dp"
-        android:text="Time"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.319"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.036" />
 
     <TextView
         android:id="@+id/SpecialistOfferDay"
@@ -76,5 +64,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.059" />
+
+    <TextView
+        android:id="@+id/SpecialistOfferTime"
+        android:layout_width="82dp"
+        android:layout_height="39dp"
+        android:text="Time"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.319"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.036" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

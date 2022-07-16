@@ -52,6 +52,7 @@ class PatientSignup : AppCompatActivity() {
         user["lastName"] = lastname
         user["gender"] = gender
         user["medication"] = meds
+        user["mentalHealthCheck"] = false
 
         db.collection("users")
             .add(user)
